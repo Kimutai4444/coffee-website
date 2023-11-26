@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navbar{
+    /* background: violet; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-image: url(images/coffee1.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* width: 100%; */
+    /* height: 0vh; */
+    /* line-height: 97vh; */
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 80px;
+    color: blueviolet; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+p{
+    font-size: 24px;
+    color: grey;
+    margin-bottom: 100px;
+}
+a{
+
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-decoration: none;
+    color: purple;
+}
+.navbar ul li a:hover{
+    color: yellow;
+}
+h2{
+    color: white;
+    margin-top: 8px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.container{
+    height:10px;
+    width: 100vw;
+    background-image:linear-gradient(rbga(0,0,0,0,34)rgba(0,0,0,0,34)),url(images/coffee1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.section{
+    text-align: center;
+    margin-top: 90px;
+}
+h3{
+    margin: 10px;
+    font-size: 20px;
+}
+.section2{
+    text-align: center;
+    margin-left: 100px;
+}
+h4{
+    height: 300px;
+    font-size: 30px;
+}
+div{
+    color:white;
+    font-size: 25px;
+    /* background-color: black; */
+    width: 100%;
+}
+form{
+    width: 90%;
+    /* padding: 50px; */
+    background-color: black;
+    margin-left: 50px;
+    padding-left: 65px;
+    font-size: 20px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 30%;
+    padding: 10px;
+    background: transparent;
+    font-size: 8px;
+    color: yellowgreen;
+}
+table{
+    border: 1px solid lightslategray;
+    width: 80%;
+    margin-top: 1px;
+    margin-left: 40px;
+    text-decoration: none; 
+}
+table{
+    color: white;
+    margin-left: 50px;
+}
+button{
+    color: yellow;
+}
+cos{
+    margin-top: 20px;
+    border: 0;
+}
+section{
+    color: white;
+    font-size: 30px;
+}
+h5{
+    font-size: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-inline-start: 150px;
+}
+table mascos{
+background-position: top;
+}
+h6{
+    align-items: center;
+    margin-left: 200px;
+    display: inline-block;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
